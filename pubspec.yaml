@@ -1,0 +1,17 @@
+name: fiyat_avcisi
+description: Trendyol, Hepsiburada ve Amazon %70+ indirim bildirim uygulamasi
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  flutter_local_notifications: ^18.0.1
+  share_plus: ^10.0.0
+
+flutter:
+  uses-material-design: true
